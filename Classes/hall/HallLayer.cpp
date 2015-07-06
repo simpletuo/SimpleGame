@@ -39,6 +39,7 @@ bool HallLayer::init()
     backgroudSprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     this->addChild(backgroudSprite, 0);
     
+    // UIPageView 
     
     
     

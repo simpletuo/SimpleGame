@@ -48,7 +48,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     register_all_packages();
     
-    CVisibleRect::sharedVisibleRect();
+    //按照图源大小适配设备
+    glview->setDesignResolutionSize(1280.0f, 720.0f, ResolutionPolicy::EXACT_FIT);
     
     FileUtils * fileUtils = FileUtils::getInstance();
     fileUtils->addSearchResolutionsOrder("image/hall");

@@ -10,6 +10,5 @@
 #define __SimpleGame__Include__
 
 #include "HallLayer.h"
-#include "CVisibleRect.h"
 
 #endif /* defined(__SimpleGame__Include__) */
